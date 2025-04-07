@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-ordering-system/static/css/main.ec2bcfaa.css",
-    "main.js": "/react-ordering-system/static/js/main.f6ccb996.js",
+    "main.js": "/react-ordering-system/static/js/main.7692340c.js",
     "static/media/bag.png": "/react-ordering-system/static/media/bag.c0b20df765f996bcc635.png",
     "index.html": "/react-ordering-system/index.html",
     "main.ec2bcfaa.css.map": "/react-ordering-system/static/css/main.ec2bcfaa.css.map",
-    "main.f6ccb996.js.map": "/react-ordering-system/static/js/main.f6ccb996.js.map"
+    "main.7692340c.js.map": "/react-ordering-system/static/js/main.7692340c.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2bcfaa.css",
-    "static/js/main.f6ccb996.js"
+    "static/js/main.7692340c.js"
   ]
 }

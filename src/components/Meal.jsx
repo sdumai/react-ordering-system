@@ -4,7 +4,7 @@ export default function Meal(props) {
   return (
     <div className={classes.meal}>
       <div className={classes.mealImg}>
-        <img src={props.meal.img} alt="" />
+        <img src={process.env.PUBLIC_URL + props.meal.img} alt="" />
       </div>
       <div className={classes.mealInfo}>
         <h1 className={classes.title}>{props.meal.title}</h1>

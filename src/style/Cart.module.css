@@ -1,0 +1,58 @@
+.cart {
+  position: fixed;
+  bottom: 30rem;
+  left: 15rem;
+  width: 720rem;
+  height: 90rem;
+  border-radius: 35rem;
+  background-color: rgb(88, 87, 87);
+  z-index: 1000;
+}
+.cart .bag {
+  position: absolute;
+  bottom: -10rem;
+  width: 80rem;
+}
+.cart .bag img {
+  width: 100%;
+}
+.cart .bag .count {
+  position: absolute;
+  height: 33rem;
+  width: 33rem;
+  border-radius: 50%;
+  top: -2rem;
+  right: -10rem;
+  background-color: red;
+  font-size: 20rem;
+  line-height: 25rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.cart span {
+  line-height: 90rem;
+  font-size: 30rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 90rem;
+}
+.cart .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fcbf49;
+  height: 100%;
+  width: 150rem;
+  font-size: 35rem;
+  line-height: 90rem;
+  text-align: center;
+  color: rgb(16, 16, 16);
+  font-weight: bold;
+  border-bottom-right-radius: 35rem;
+  border-top-right-radius: 35rem;
+}
+.cart .noMeal {
+  background-color: rgb(128, 124, 124);
+  color: rgb(201, 200, 200);
+}

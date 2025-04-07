@@ -1,0 +1,32 @@
+.checkout {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(245, 245, 245);
+}
+.close {
+  border-radius: 10rem;
+  border: 2rem solid #898484;
+  position: absolute;
+  right: 0;
+  font-size: 35rem;
+  margin: 18rem;
+  padding: 10rem;
+  color: rgb(91, 91, 91);
+}
+.close .icon {
+  margin-left: 10rem;
+}
+.remind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  font-size: 50rem;
+  /* font-weight: bold; */
+}

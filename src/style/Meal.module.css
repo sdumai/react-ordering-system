@@ -1,0 +1,44 @@
+.meal {
+  height: 250rem;
+  display: flex;
+  padding: 8rem;
+  align-items: center;
+  border-bottom: 1px solid rgb(201, 199, 199);
+}
+.meal .mealImg {
+  width: 230rem;
+}
+.meal .mealImg img {
+  width: 100%;
+}
+.meal .mealInfo {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding: 10rem;
+  width: 490rem;
+}
+.meal .mealInfo .title {
+  font-weight: 500;
+  font-size: 34rem;
+}
+.meal .mealInfo .desc {
+  font-size: 18rem;
+  color: rgb(57, 58, 59);
+}
+.meal .mealPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+}
+.meal .mealPrice .price {
+  font-size: 22rem;
+  font-weight: bold;
+}
+.meal .mealPrice .price::before {
+  content: "￥";
+  font-size: 16rem;
+}

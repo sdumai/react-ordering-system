@@ -1,0 +1,28 @@
+.counter {
+  display: flex;
+  font-size: 20rem;
+}
+.sub,
+.add {
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  background-color: #fcbf49;
+  margin: 0 10rem;
+}
+.sub {
+  background-color: white;
+  border: 1px solid black;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+span {
+  line-height: 30rem;
+}

@@ -1,0 +1,16 @@
+.Meals {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100rem;
+  /* 内容超出可视区域时出现滚动条 */
+  overflow: auto;
+  padding-bottom: 100rem;
+}
+.isLoading {
+  margin: 30rem;
+  text-align: center;
+  font-size: 35rem;
+}
